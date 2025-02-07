@@ -12,11 +12,38 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: #F2Eae2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column nowrap;
+      padding: 1.8rem 1.2rem;
+    }
+
+    .card{
+      max-width: 90vw;
+      background-color: white;
+      border-radius: 12px;
+     
+    }
+
+    .preview-image img{
+      max-width: 100%;
+      border-radius: 12px;
+    }
   </style>
 </head>
 <body>
 
-  Perfume
+  <div class="card">
+    <div class="preview-image">
+      <img src="./images/image-product-mobile.jpg" alt="">
+    </div>
+
+    <div class="text-content">
+      Perfume
 
   Gabrielle Essence Eau De Parfum
 
@@ -27,6 +54,10 @@
   $169.99
 
   Add to Cart
+    </div>
+  </div>
+
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
